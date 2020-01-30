@@ -5,8 +5,13 @@ exports.up = function(knex) {
     cards.increments();
     cards
       .text("name")
-      .notNullable()
       .unique()
+    cards
+      .text("suit")
+    cards
+      .text("order")
+    cards
+      .text("description")
     cards
       .text("cardImage")
   })
