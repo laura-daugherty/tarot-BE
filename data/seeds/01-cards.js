@@ -2,7 +2,7 @@
 exports.seed = function(knex) {
   return knex('cards').insert([
     {id: 0, name: 'The Fool', suit: '', order: '', description: '', cardImage:'https://upload.wikimedia.org/wikipedia/en/9/90/RWS_Tarot_00_Fool.jpg'},
-    {id: 1, name: 'The Magician', suit: '', order: '', description: 'skill, diplomacy, address, sickness, pain, loss, disaster, self-confidence, will, the querent himself', cardimage:'https://upload.wikimedia.org/wikipedia/en/d/de/RWS_Tarot_01_Magician.jpg'},
+    {id: 1, name: 'The Magician', suit: '', order: '', description: 'skill, diplomacy, address, sickness, pain, loss, disaster, self-confidence, will, the querent himself', cardImage:'https://upload.wikimedia.org/wikipedia/en/d/de/RWS_Tarot_01_Magician.jpg'},
     {id: 2, name: 'The High Priestess', suit: '', order: '', description: '', cardImage:'https://upload.wikimedia.org/wikipedia/en/8/88/RWS_Tarot_02_High_Priestess.jpg'},
     {id: 3, name: 'The Empress', suit: '', order: '', description: '', cardImage:'https://upload.wikimedia.org/wikipedia/en/d/d2/RWS_Tarot_03_Empress.jpg'},
     {id: 4, name: 'The Emperor', suit: '', order: '', description: '', cardImage:'https://upload.wikimedia.org/wikipedia/en/c/c3/RWS_Tarot_04_Emperor.jpg'},
