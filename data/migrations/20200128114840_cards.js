@@ -5,7 +5,6 @@ exports.up = function(knex) {
     cards.increments();
     cards
       .text("name")
-      .unique()
     cards
       .text("suit")
     cards
