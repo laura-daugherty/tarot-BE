@@ -1,6 +1,6 @@
-# Celebrity Dead or Alive App API
+# Tarot Flip
 
-** Tarot Flip is a simple game that returns three random tarot cards to the user. This API provides a card router that contains information about each Tarot card. It contains 78 cards with descriptions and an endpoint for retrieving the cards **
+Tarot Flip is a simple game that returns three random tarot cards to the user. This API provides a card router that contains information about each Tarot card. It contains 78 cards with descriptions and an endpoint for retrieving the cards.
 
 
 ## Getting Started
